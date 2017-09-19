@@ -15,7 +15,7 @@ class Contacts:
             if contact['name'] == contact_name:
                 self.contacts.remove(contact)
                 break
-        if len(self.contacts)<initial_length:
+        if len(self.contacts) < initial_length:
             pass
         else:
             print(contact_name, 'does not exist')
@@ -23,7 +23,7 @@ class Contacts:
     def search_contact(self, contact_name):
         contact_found = False
         for contact in self.contacts:
-            if contact['name']==contact_name:
+            if contact['name'] == contact_name:
                 print(contact)
                 contact_found = True
                 break

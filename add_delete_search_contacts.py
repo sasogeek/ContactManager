@@ -4,7 +4,7 @@ phone_book = Contacts()
 
 
 while add_delete_search_contact_:
-    check =  input('Add/Delete/Search/Quit a contact? a/d/s/q  ')
+    check = input('Add/Delete/Search/Quit a contact? a/d/s/q  ')
     if check == 'a':
         contact = phone_book.add_contact()
         add_delete_search_contact_ = True
