@@ -7,7 +7,7 @@ class Contact:
         self.website = input('Website: ')
         self.birthday = input('Birthday: ')
         self.linked_in = input('Linked In: ')
-        # self.picture = input('Picture: ')
+        # TODO self.picture = input('Picture: ')
         self.contact_ = {'name': self.name,
                          'phone number': self.phone_number,
                          'email': self.email,

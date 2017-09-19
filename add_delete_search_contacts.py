@@ -18,6 +18,3 @@ while add_delete_search_contact_:
         add_delete_search_contact_ = True
     elif check == 'q':
         break
-
-# for contact in phone_book.get_contacts():
-#     print(contact)
